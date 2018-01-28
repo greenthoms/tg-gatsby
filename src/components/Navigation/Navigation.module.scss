@@ -1,0 +1,25 @@
+@import '../../../config/variables';
+
+.wrapper {
+	align-items: center;
+	display: flex;
+	max-width: $content-width;
+	margin: 4rem auto 0;
+	justify-content: space-between;
+
+	a, h3 {
+		color: $body-color;
+		font-size: $font-size-1;
+		font-weight: 400;
+		&:hover {
+			color: $brand-primary;
+		}
+	}
+}
+
+.navigation {
+	align-self: flex-start;
+	a:not(:first-child) {
+		margin-left: 1.8rem;
+	}
+}

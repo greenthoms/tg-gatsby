@@ -1,0 +1,19 @@
+@import '../../../config/variables';
+
+.container {
+	margin: 0 auto;
+	max-width: $container;
+}
+
+.text {
+	max-width: $content-width;
+
+	p {
+		max-width: 800px;
+		margin: auto;
+		margin-bottom: 1rem;
+		font-size: $font-size-0;
+		line-height: 1.5;
+		margin-bottom: 2rem;
+	}
+}

@@ -1,0 +1,94 @@
+@import '../../config/variables';
+@import './reboot';
+@import '../../node_modules/@ibm/type/css/ibm-type.min.css';
+
+body {
+	font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+	margin: 1rem 0;
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+h1, h2, h3 {
+	font-size: 1rem;
+}
+
+a {
+	border-bottom: solid 1px #ccc;
+	color: #1976d2;
+	&:hover {
+		border-bottom: solid 1px #000;
+		color: #000;
+	}
+}
+
+.no-underline a {
+	border: none;
+}
+
+.font-large {
+	font-size: responsive 16px 21px;
+	font-range: 420px 1280px;
+	margin-top: 0;
+}
+
+.font-grey {
+	color: #666;
+}
+
+.container {
+	padding-top: 5rem;
+}
+
+.hello-world {
+	font-size: 57px;
+}
+
+.flex-container {
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.pitch {
+	max-width: 45rem;
+}
+
+.ui-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.contact-details {
+	line-height: 1.7;
+}
+
+.mt0 {
+	margin-top: 0;
+}
+
+.mt2 {
+	margin-top: 2rem;
+}
+
+.mb2 {
+	margin-bottom: 2rem;
+}
+
+.mb10 {
+	margin-bottom: 10rem;
+}
+
+.mx2 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+}
